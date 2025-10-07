@@ -1,0 +1,23 @@
+role: "Unity Developer"
+type: "Full-time"
+company: "Arthur"
+location: "Munich, Bavaria, Germany"
+location-type: "Remote"
+start_date: "2023-11"
+end_date: "2024-12"
+
+description:
+  - "Arthur is a VR collaboration platform that connects distributed teams through immersive virtual spaces. My work centered on performance optimization, UI modernization, and multi-platform deployment."
+  - "Revolutionized asset handling with backend-powered GLB compression, resolving memory leaks and eliminating tons of assets duplication issues (in-memory) for smoother VR experiences."
+  - "Optimized runtime performance by transitioning core workflows from synchronous to asynchronous processing in Unity."
+  - "Delivered a long-delayed modern UI overhaul, launching an intuitive and polished interface now live for all users."
+  - "Maintained multi-platform builds (VR, Windows, WebGL), ensuring consistent quality and platform-specific improvements."
+
+skills:
+  - "Performance Optimization"
+  - "Asynchronous Programming (C#)"
+  - "UI/UX Implementation in Unity"
+  - "Unity"
+  - "Unity 3D & VR Development"
+  - "VR Optimization"
+  - "Cross-Platform Deployment (VR, Windows, WebGL)"

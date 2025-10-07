@@ -1,0 +1,35 @@
+role: "Unity Developer"
+type: "Full-time"
+company: "Terafort"
+location: "Islamabad, Pakistan"
+location-type: "On-site"
+start_date: "2022-01"
+end_date: "2023-10"
+
+description:
+  - "Contributed to multiple Unity-based projects, focusing on gameplay systems, VFX, and performance optimization."
+  - "Enhanced Android vitals across several titles, ensuring smooth gameplay on low-end devices."
+  - "Implemented ad integrations, created performance reports, and refactored codebase."
+
+projects:
+  - name: "Mini Car Rush 2"
+    description: "An endless runner game featuring adaptive encounters and immersive VFX."
+    tech: ["Unity", "C#", "Android"]
+    impact:
+      - "Developed core gameplay systems including adaptive encounter generation and improved procedural coin/pickup placement with introducing safe zones landing calculations/logics."
+      - "Created immersive effects: particle systems, camera shakes, haptics, slow-motion, frame pauses during combat, and advanced post-processing."
+
+  - name: "Game Optimization Initiative"
+    description: "Performance optimization across multiple Android titles."
+    tech: ["Unity", "C#", "Mobile Optimization"]
+    impact:
+      - "Improved Android vitals for 5 games: Mad Scientist, Bike Stunt Legends, Car Mechanics, City Gangster, Kart Racing."
+      - "Transformed *Mad Scientist* from GPU-bound (6GB devices) to stable 30 FPS on 2GB devices by applying occlusion culling, batch-breaking fixes, adaptive resolution scaling, and lightmap optimization."
+
+skills:
+  - "Performance Optimization"
+  - "Mobile Game Development"
+  - "Unity"
+  - "Mobile Game Optimization"
+  - "Visual Effects (VFX)"
+  - "C#"

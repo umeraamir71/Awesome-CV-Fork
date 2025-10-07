@@ -1,0 +1,19 @@
+role: "Game Developer"
+type: "Full-time"
+company: "360eLearning"
+location: "Islamabad, Pakistan"
+location-type: "On-site"
+start_date: "2020-09"
+end_date: "2021-12"
+
+description:
+  - "Transitioned into Unity game development, creating interactive gameplay experiences for mobile and tablet platforms."
+  - "Built engaging game modules, including levels, worlds, and user progress tracking systems."
+  - "Optimized game performance and responsiveness for a smoother user experience across devices."
+
+skills:
+  - "Performance Optimization"
+  - "Game Development"
+  - "Unity"
+  - "Gameplay Programming"
+  - "C#"

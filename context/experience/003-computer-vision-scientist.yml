@@ -1,0 +1,19 @@
+role: "Computer Vision Scientist"
+type: "Full-time"
+company: "360eLearning"
+location: "Islamabad, Pakistan"
+location-type: "On-site"
+start_date: "2019-11"
+end_date: "2020-08"
+
+description:
+  - "Developed AI-driven features for an educational game (named WIZDO) aimed at enhancing interactive learning."
+  - "Designed and implemented computer vision algorithms for real-time recognition of numbers, letters, and shapes."
+  - "Improved accuracy and responsiveness to support engaging, gamified learning experiences."
+
+skills:
+  - "Real-Time Object Recognition"
+  - "Image Processing"
+  - "Educational Technology (EdTech)"
+  - "Computer Vision Algorithms"
+  - "Machine Learning"

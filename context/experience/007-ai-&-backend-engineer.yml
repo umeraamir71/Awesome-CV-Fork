@@ -1,0 +1,20 @@
+role: "AI & Backend Engineer"
+type: "Full-time"
+company: "Arthur"
+location: "Munich, Bavaria, Germany"
+location-type: "Remote"
+start_date: "2025-01"
+end_date: "Present"
+
+description:
+  - "Transitioned into Arthur's AI and backend team to develop advanced, scalable systems that power intelligent features across multiple platforms."
+  - "Integrated web-search capabilities into AI agents through creative prompt engineering and external LLM tool integration."
+  - "Designed and delivered a proof-of-concept smart LLM system, leading to company-wide adoption and laying the groundwork for a major new initiative (currently in development)."
+  - "Developing high-performance backend architecture using Go, Redis, AWS Fargate, Node.js, and PostgreSQL to support next-generation, scalable AI-driven experiences."
+
+skills:
+  - "AI/LLM Integration & Prompt Engineering"
+  - "API Design & Integration"
+  - "Scalable System Architecture"
+  - "Cloud Infrastructure (AWS Fargate, Redis, PostgreSQL)"
+  - "Backend Development (Go, Node.js)"

@@ -1,0 +1,24 @@
+role: "AI Developer"
+type: "Internship"
+company: "CommTech"
+location: "Rawalpindi, Pakistan"
+location-type: "On-site"
+start_date: "2019-08"
+end_date: "2019-10"
+
+description:
+  - "Built and delivered impactful demos that directly contributed to securing a major client project."
+
+projects:
+  - name: "AI Project Demos"
+    description: "Developed AI project demos including facial recognition, object detection, and speech-to-text systems in Python during a 3-month internship."
+    tech: ["Python", "OpenCV", "Kaldi"]
+    impact:
+      - "These demos directly contributed to securing a major client project."
+
+skills:
+  - "Python (Programming Language)"
+  - "Speech-to-Text (STT)"
+  - "Facial Recognition"
+  - "Computer Vision"
+  - "Object Detection"

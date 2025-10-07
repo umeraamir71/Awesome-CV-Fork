@@ -1,0 +1,18 @@
+role: "Computer Vision Engineer"
+type: "Freelance"
+company: "Fiverr"
+location: "Rawalpindi, Pakistan"
+location-type: "Remote"
+start_date: "2020"
+end_date: "2021"
+
+description:
+  - "Worked as a Level 1 Seller on Fiverr, completing 10 AI and computer vision projects over weekends in a year."
+  - "Collaborated with two Ph.D. researchers to deliver academic AI solutions."
+
+skills:
+  - "Python (Programming Language)"
+  - "OpenCV"
+  - "Computer Vision"
+  - "Machine Learning"
+  - "Deep Learning"
