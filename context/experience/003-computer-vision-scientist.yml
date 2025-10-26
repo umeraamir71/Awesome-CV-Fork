@@ -7,13 +7,22 @@ start_date: "2019-11"
 end_date: "2020-08"
 
 description:
-  - "Developed AI-driven features for an educational game (named WIZDO) aimed at enhancing interactive learning."
-  - "Designed and implemented computer vision algorithms for real-time recognition of numbers, letters, and shapes."
+  - "Pioneered computer vision algorithms and AI modules for WIZDO, an educational mobile/tablet game for children."
+  - "Integrated machine learning elements into Unity to create intelligent recognition-based interactions."
   - "Improved accuracy and responsiveness to support engaging, gamified learning experiences."
+
+projects:
+  - name: "WIZDO - AI-Powered Kids Learning Game"
+    description: "An EdTech learning game combining AI and game mechanics to teach kids through play."
+    tech: ["Unity", "C#", "OpenCV", "Python"]
+    impact:
+      - "Prototyped recognition models in Python using OpenCV for detecting numbers, letters, and shapes."
+      - "Ported vision algorithms to Unity, integrating them with the game's C# logic for real-time recognition feedback."
+      - "Conducted usability tests in multiple schools for learning impact validation."
 
 skills:
   - "Real-Time Object Recognition"
   - "Image Processing"
   - "Educational Technology (EdTech)"
   - "Computer Vision Algorithms"
-  - "Machine Learning"
+  - "Unity/C# Integration"

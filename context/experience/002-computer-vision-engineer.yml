@@ -8,11 +8,14 @@ end_date: "2021"
 
 description:
   - "Worked as a Level 1 Seller on Fiverr, completing 10 AI and computer vision projects over weekends in a year."
-  - "Collaborated with two Ph.D. researchers to deliver academic AI solutions."
+  - "Also collaborated with two Ph.D. researchers to deliver academic AI solutions as a freelance projects."
+
+links:
+  - label: "Fiverr Account"
+    url: "https://www.fiverr.com/umeraamir71"
 
 skills:
   - "Python (Programming Language)"
   - "OpenCV"
   - "Computer Vision"
   - "Machine Learning"
-  - "Deep Learning"

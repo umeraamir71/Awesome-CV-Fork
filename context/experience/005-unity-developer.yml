@@ -7,27 +7,41 @@ start_date: "2022-01"
 end_date: "2023-10"
 
 description:
-  - "Contributed to multiple Unity-based projects, focusing on gameplay systems, VFX, and performance optimization."
-  - "Enhanced Android vitals across several titles, ensuring smooth gameplay on low-end devices."
-  - "Implemented ad integrations, created performance reports, and refactored codebase."
+  - "Launched and optimized multiple Unity-based mobile titles with a strong focus on gameplay architecture, VFX, and performance tuning."
+  - "Delivered stable 30 FPS performance on low-end 2GB devices for a previously GPU-bound game."
+  - "Played a dual role — as a gameplay developer for new titles and an optimization specialist for underperforming games."
 
 projects:
   - name: "Mini Car Rush 2"
-    description: "An endless runner game featuring adaptive encounters and immersive VFX."
-    tech: ["Unity", "C#", "Android"]
+    description: "An endless runner game featuring adaptive encounters, procedural coins/pickups generation and immersive VFX."
+    tech: ["Unity", "C#", "VFX", "Gameplay Development"]
+    links:
+      - label: "Google Play"
+        url: "https://play.google.com/store/apps/details?id=com.tb.minicar.rush.racing.drivinggames"
     impact:
-      - "Developed core gameplay systems including adaptive encounter generation and improved procedural coin/pickup placement with introducing safe zones landing calculations/logics."
-      - "Created immersive effects: particle systems, camera shakes, haptics, slow-motion, frame pauses during combat, and advanced post-processing."
+      - "Developed adaptive encounter generation and procedural coin/pickup placement systems with safe landing zones calculations."
+      - "Implemented VFX including particle effects, camera shakes, haptics, slow-motions, mini frame pauses in combat, and post-processing effects."
+      - "Contributed to the architecture and optimization pipelines that led to outstanding gameplay stability and engagement metrics."
+      - "The game was successfully launched and well-received by users, maintaining strong retention and playtime."
 
   - name: "Game Optimization Initiative"
-    description: "Performance optimization across multiple Android titles."
+    description: "Performance optimization across multiple mobile games to meet Android Vitals targets."
     tech: ["Unity", "C#", "Mobile Optimization"]
+    links:
+      - label: "Google Play - Mad Scientist"
+        url: "https://play.google.com/store/apps/details?id=com.tb.madscientist.scary.man.rpggames"
+      - label: "Google Play - Bike Stunt Legends"
+        url: "https://play.google.com/store/apps/details?id=com.kn.bikestunt3.racing.driving.games"
+      - label: "Google Play - Car Mechanics"
+        url: "https://play.google.com/store/apps/details?id=com.gamexis.car.design.mechanic.shop.apps"
     impact:
       - "Improved Android vitals for 5 games: Mad Scientist, Bike Stunt Legends, Car Mechanics, City Gangster, Kart Racing."
       - "Transformed *Mad Scientist* from GPU-bound (6GB devices) to stable 30 FPS on 2GB devices by applying occlusion culling, batch-breaking fixes, adaptive resolution scaling, and lightmap optimization."
+      - "Improved load times, reduced memory footprint, and stabilized FPS across multiple hardware tiers."
+      - "*Mad Scientist* was finally released after a year in beta due to successful optimization results."
 
 skills:
-  - "Performance Optimization"
+  - "Gameplay Systems"
   - "Mobile Game Development"
   - "Unity"
   - "Mobile Game Optimization"

@@ -8,16 +8,51 @@ end_date: "2024-12"
 
 description:
   - "Arthur is a VR collaboration platform that connects distributed teams through immersive virtual spaces. My work centered on performance optimization, UI modernization, and multi-platform deployment."
-  - "Revolutionized asset handling with backend-powered GLB compression, resolving memory leaks and eliminating tons of assets duplication issues (in-memory) for smoother VR experiences."
-  - "Optimized runtime performance by transitioning core workflows from synchronous to asynchronous processing in Unity."
-  - "Delivered a long-delayed modern UI overhaul, launching an intuitive and polished interface now live for all users."
-  - "Maintained multi-platform builds (VR, Windows, WebGL), ensuring consistent quality and platform-specific improvements."
+  - "Delivered critical performance improvements and feature enhancements that directly impacted user experience across VR, desktop, and web platforms."
+
+modules (Arthur project):
+  - name: "Asset Handling & Memory Optimization"
+    description: "Revolutionized asset pipeline to eliminate memory leaks and improve VR performance."
+    tech: ["Unity", "C#", "GLB Mesh/Texture Compression (runtime)", "Backend Integration", "GLTF Loaders"]
+    impact:
+      - "Implemented backend-powered runtime GLB compression system to reduce big loading jerks during user's session."
+      - "Integrated universal compression formats (KTX2) to ensure cross-platform compatibility."
+      - "Eliminated memory duplication for user-placed assets by implementing a single shared memory instance architecture."
+      - "Optimized asset loading by distributing processing across multiple frames, significantly reducing initial room join stuttering."
+      - "Resolved multiple memory leak issues for dynamically loaded assets through proper manual destruction and cleanup."
+      - "Delivered smoother VR experiences with reduced memory footprint and faster load times."
+
+  - name: "Runtime Performance Optimization"
+    description: "Transitioned synchronous workflows to asynchronous processing for improved responsiveness during session."
+    tech: ["Unity", "C#", "Async/Await", "Task-based Programming"]
+    impact:
+      - "Refactored core workflows from blocking synchronous operations to async processing, such as async resource loading."
+      - "Improved runtime performance by distributing resource loading operations across frames, eliminating frame drops during heavy operations e.g. texture.LoadImage()."
+      - "Identified and resolved a critical memory issue where multiple uncompressed 4K textures were consuming over 2GB of memory, causing severe lag at multiple hidden points during a session."
+
+  - name: "Modern UI Overhaul & Feature Delivery"
+    description: "Completed long-delayed UI modernization project, launching new interface to all users."
+    tech: ["Unity UI", "C#", "Cross-functional Collaboration", "Feature Delivery Management"]
+    impact:
+      - "Joined the UI overhaul project during its later stages and drove it to successful completion after extended delays."
+      - "Launched intuitive and polished interface now live for all Arthur users."
+      - "Established clear communication across teams, ensuring alignment and following a structured feature execution approach that led to successful release in just a few months."
+
+  - name: "Multi-Platform Build Management"
+    description: "Maintained and improved builds across VR, Windows, and WebGL platforms."
+    tech: ["Unity", "Meta Quest", "Windows Desktop", "WebGL"]
+    impact:
+      - "Ensured consistent quality across VR headsets, Windows desktop, and web platforms."
+      - "Implemented platform-specific optimizations and improvements."
+      - "Maintained stable release pipeline for multiple deployment targets."
 
 skills:
-  - "Performance Optimization"
+  - "VR Performance Optimization"
+  - "Memory Management & Leak Resolution"
   - "Asynchronous Programming (C#)"
-  - "UI/UX Implementation in Unity"
-  - "Unity"
+  - "Asset Pipeline Optimization"
+  - "Runtime Texture Compression (GLB, KTX2)"
   - "Unity 3D & VR Development"
-  - "VR Optimization"
   - "Cross-Platform Deployment (VR, Windows, WebGL)"
+  - "UI/UX Implementation in Unity"
+  - "Backend Integration"

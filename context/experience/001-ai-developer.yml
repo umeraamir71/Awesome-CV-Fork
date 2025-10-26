@@ -7,11 +7,11 @@ start_date: "2019-08"
 end_date: "2019-10"
 
 description:
-  - "Built and delivered impactful demos that directly contributed to securing a major client project."
+  - "Built and delivered impactful AI based project demos in a 3 months internship."
 
 projects:
   - name: "AI Project Demos"
-    description: "Developed AI project demos including facial recognition, object detection, and speech-to-text systems in Python during a 3-month internship."
+    description: "Developed AI project demos including facial recognition, object detection, and speech-to-text systems in Python."
     tech: ["Python", "OpenCV", "Kaldi"]
     impact:
       - "These demos directly contributed to securing a major client project."

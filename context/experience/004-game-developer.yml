@@ -7,9 +7,35 @@ start_date: "2020-09"
 end_date: "2021-12"
 
 description:
-  - "Transitioned into Unity game development, creating interactive gameplay experiences for mobile and tablet platforms."
-  - "Built engaging game modules, including levels, worlds, and user progress tracking systems."
-  - "Optimized game performance and responsiveness for a smoother user experience across devices."
+  - "Led Unity development for two EdTech titles — WIZDO and Magic Activity™ — combining AR and AI-based learning experiences for mobile and tablet platforms."
+  - "Delivered production-ready releases for both Apple App Store and Google Play Store."
+  - "Contributed to physical kit design and packaging to align digital experiences with real-world products."
+
+projects:
+  - name: "WIZDO"
+    description: "AI-based educational game for children featuring diverse themed adventures."
+    tech: ["Unity", "C#", "Firebase", "Android", "iOS"]
+    impact:
+      - "Maintained and expanded core game modules: Mermaid, Spaceship, Birds Adventure, and Car Racing."
+      - "Enhanced responsiveness across screen sizes and optimized assets for mobile deployment."
+      - "Implemented local and Firebase-based progress tracking systems."
+      - "Designed 2D Car Racing gameplay with level progression and tilemap-based environment creation."
+      - "Optimized mobile performance using Unity Profiler"
+
+  - name: "Magic Activity™"
+    description: "AR-powered learning game using Vuforia for image-based educational activities."
+    tech: ["Unity", "Vuforia", "C#", "Android", "iOS"]
+    links:
+      - label: "Google Play"
+        url: "https://play.google.com/store/apps/details?id=com.MagicActivityAR.Elearning&hl=en&gl=US"
+      - label: "Amazon Store"
+        url: "https://www.amazon.com/stores/MagicActivity/Homepage/page/E6810CE3-7DD2-4F5C-96BB-CC144FD4970E"
+      - label: "Daraz Store"
+        url: "https://www.daraz.pk/shop/magic-activity/"
+    impact:
+      - "Upgraded project from Unity 2018 to 2020, refactored legacy Vuforia logic."
+      - "Added new mini-games such as Match the Numbers, Spot the Difference, and Jigsaw Puzzle."
+      - "Maintained and published updates on both app stores after major debugging cycles."
 
 skills:
   - "Performance Optimization"
