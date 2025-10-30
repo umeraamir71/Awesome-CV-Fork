@@ -7,14 +7,63 @@ start_date: "2025-01"
 end_date: "Present"
 
 description:
-  - "Transitioned into Arthur's AI and backend team to develop advanced, scalable systems that power intelligent features across multiple platforms."
-  - "Integrated web-search capabilities into AI agents through creative prompt engineering and external LLM tool integration."
-  - "Designed and delivered a proof-of-concept smart LLM system, leading to company-wide adoption and laying the groundwork for a major new initiative (currently in development)."
-  - "Developing high-performance backend architecture using Go, Redis, AWS Fargate, Node.js, and PostgreSQL to support next-generation, scalable AI-driven experiences."
+  - "Transitioned from Unity to AI & Backend on the same Arthur product, working deeply in Photon (server) with a Unity/C# client, focusing on AI agents, while working deeply in Golang focusing on real-time collaboration."
+  - "Extended an existing OpenAI integration that used manual REST calls (no official .NET SDK at the time) — handling tool calls and chat history in C# — and delivered a Perplexity-powered web search tool that the agent invokes only when needed via prompting and policy."
+  - "Ran a 6-month LLM POC on Photon that led to company-backed Node.js AI workers (built by backend), while I delivered a scalable Golang meeting service and later integrated Go, Node.js workers, and the React UI end-to-end."
+
+initiatives (Arthur platform):
+  - name: "AI Agent — Web Search Augmentation"
+    description: "Enabled the Photon-based AI agent to detect knowledge gaps and enrich responses with web context via prompting and tool-calls."
+    tech: ["Photon", "C#", "OpenAI Chat Completions endpoint", "Perplexity API", "Prompt Engineering"]
+    impact:
+      - "Automatically identifies when external knowledge is required and performs targeted retrieval before composing the final answer."
+      - "Raised response quality and task success in the collaboration app without adding UX friction."
+      - "Shipped as a core enhancement to the AI bot/agent within Arthur."
+
+  - name: "LLM POC — From Prototype to AI Workers"
+    description: "Ran a ~6-month POC on Photon/C# exploring creative LLM orchestration using OpenAI models (GPT-4/4.1, o1, o3, o3-mini). The validated design is being productized by backend as scalable Node.js AI workers."
+    tech: ["Photon", "C#", "OpenAI (GPT-4, GPT-4.1, o1, o3, o3-mini)", "Manual Tool-Calling", "OpenAI Evals"]
+    impact:
+      - "Proved feasibility and value of the approach for complex, multi-step AI tasks."
+      - "Delivered design/behavioral specs guiding implementation of Node.js workers that pick up AI jobs and return results."
+      - "Aligned event/job contracts so the Go meeting service can enqueue tasks consumed by these workers."
+
+  - name: "Event-Driven Meeting Service (Golang)"
+    description: "A real-time, Redis-backed meeting backend with clean hexagonal boundaries, strong ordering where it matters, and horizontal scalability."
+    tech: ["Golang", "Redis (Streams, Pub/Sub, Locks)", "WebSockets", "CQRS/Projections", "Uber Fx", "Zap", "Docker/Make"]
+    impact:
+      - "Stateless nodes behind a load balancer; shared state in Redis for scale and resilience."
+      - "Cross-node locks, consumer groups, and idempotency keys for multi-instance safety."
+      - "Dispatchers enforce ordering/commit for critical events; projection runner supports catch-up and continuous apply."
+      - "WebSocket hub with sharded connection maps, selective broadcast, and playback-to-live resume via lastEventId."
+      - "Lifecycle manager, per-meeting registries, and session grace with deterministic cleanup."
+      - "Channel separation: Control (ordered/committed), AI (async/worker-committed), Realtime (high-frequency/ephemeral)."
+      - "Operational maturity: graceful shutdown, bounded queues/backpressure, structured logging, config validation."
+      - "Security and access: STS for transcription (JWT verification) and Redis-backed rate limiting policies."
+      - "Integration points: enqueues AI jobs for Node.js workers; exposes APIs/WS used by React UI."
+
+  - name: "Cross-Service Integration"
+    description: "Integrated Golang meeting service, Node.js AI workers, and the React UI into a cohesive system."
+    tech: ["Node.js", "React", "Golang", "Redis", "HTTP/WS", "Auth/JWT", "Env/Config"]
+    impact:
+      - "Coordinated contracts, routing, and auth across services; made targeted code changes where required."
+      - "Validated end-to-end flows from React UI through Go meeting backend to Node.js AI workers."
 
 skills:
-  - "AI/LLM Integration & Prompt Engineering"
-  - "API Design & Integration"
-  - "Scalable System Architecture"
-  - "Cloud Infrastructure (AWS Fargate, Redis, PostgreSQL)"
-  - "Backend Development (Go, Node.js)"
+  - "Golang"
+  - "Redis (Streams, Pub/Sub, Locks)"
+  - "WebSockets & Real-time Systems"
+  - "Event-Driven Architecture"
+  - "CQRS & Projections"
+  - "Distributed Systems & Idempotency"
+  - "LLMs & Prompt Engineering"
+  - "AI Agent Design"
+  - "Photon"
+  - "C#"
+  - "OpenAI REST (no .NET SDK)"
+  - "Perplexity API (Web Search)"
+  - "Systems Integration (Go, Node.js, Photon, React)"
+  - "Uber Fx (DI/Lifecycle)"
+  - "Zap (Structured Logging)"
+  - "Docker & Make"
+  - "JWT & Rate Limiting"
