@@ -10,6 +10,10 @@ description:
   - "Arthur is a VR collaboration platform that connects distributed teams through immersive virtual spaces. My work centered on performance optimization, UI modernization, and multi-platform deployment."
   - "Delivered critical performance improvements and feature enhancements that directly impacted user experience across VR, desktop, and web platforms."
 
+links:
+  - label: "Arthur Official Website"
+    url: "https://arthur.digital/"
+
 modules (Arthur project):
   - name: "Asset Handling & Memory Optimization"
     description: "Revolutionized asset pipeline to eliminate memory leaks and improve VR performance."
